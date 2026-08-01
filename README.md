@@ -47,7 +47,7 @@ Then open SDMI\Mods\Verna\Objects and you will see a variety of Verna objects
 - First make sure that all parts you are replacing line up with the verna model that was dumped
 - Put it all obj files in one folder then run:
 ```
-cd SDMI\Mods\Verna\Tools
+cd Core\SDMI\Mods\Verna\Tools
 python 2_import_free_n_parts.py C:\Path\To\New\Objs
 ```
 - Make sure you resize/rename and save the dds images to replace in SDMI\Mods\Verna\Textures
