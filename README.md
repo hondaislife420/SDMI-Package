@@ -12,7 +12,7 @@ I made this is a week with AI so this probably isn't the best solution but it's 
 
 ### Prerequisites
 
-Open the game and in the settings set your settings to dx11
+Open the game and in the settings set your renderer to dx11
 
 ### How to run the Launcher:
 
