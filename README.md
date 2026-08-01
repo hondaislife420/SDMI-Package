@@ -9,7 +9,31 @@ There are no Global HLSL shaders/keys/etc, only a basic script to replace Vernas
 
 I made this is a week with AI so this probably isn't the best solution but it's a Proof of Concept that has alot of the basics down so that people can start modding a new game if they want, I might work on this more in the future but I'll see how this works for now. 
 
-### How to use:
+
+### Prerequisites
+
+Open the game and in the settings set your 
+
+### How to run the Launcher:
+
+### XXMI:
+
+Because the Launcher has to be launched with admin privs, so does XXMI, but if you just run 'python app.py' in an admin terminal then it will auto update to the exe version.
+You can also try compiling into an exe with pyinstaller but i found it easier using python for testing
+
+1. Double-Click app.py from Explorer in XXMI-Launcher-main\src\xxmi_launcher\app.py
+2. Add SDMI to available apps in XXMI then press settings icon.
+3. Turn off Auto-Update
+
+After this you can open a Admin Command Prompt:
+```
+cd C:\Path\To\XXMI-Launcher-main\src\xxmi_launcher\
+python app.py
+```
+Then continue installation as normal
+
+
+### How to import models:
 
 1. If you want to get a verna obj to edit/compare models to run:
 ```
@@ -30,20 +54,6 @@ python 2_import_free_n_parts.py C:\Path\To\New\Objs
 - Press F10/Reload and it should be
 
 ## Known Bugs:
-
-### XXMI:
-
-Because the Launcher has to be launched with admin privs, so does XXMI, but if you just run 'python app.py' in an admin terminal then it will auto update to the exe version.
-1. Double-Click app.py from Explorer in XXMI-Launcher-main\src\xxmi_launcher\app.py
-2. Add SDMI to available apps in XXMI then press settings icon.
-3. Turn off Auto-Update
-
-After this you can open a Admin Command Prompt:
-```
-cd C:\Path\To\XXMI-Launcher-main\src\xxmi_launcher\
-python app.py
-```
-Then continue installation as normal
 
 ### SDMI:
 
