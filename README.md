@@ -16,7 +16,7 @@ Open the game and in the settings set your
 
 ### How to run the Launcher:
 
-### XXMI:
+https://github.com/hondaislife420/XXMI-Launcher
 
 Because the Launcher has to be launched with admin privs, so does XXMI, but if you just run 'python app.py' in an admin terminal then it will auto update to the exe version.
 You can also try compiling into an exe with pyinstaller but i found it easier using python for testing
